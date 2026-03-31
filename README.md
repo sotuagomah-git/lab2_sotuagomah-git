@@ -47,8 +47,8 @@ The project is intentionally built without any built-in sorting or comparison fu
  
 ```bash
 # Clone or download the project
-git clone https://github.com/your-username/data-detective.git
-cd data-detective
+git clone https://github.com/sotuagomah-git/lab2_sotuagomah-git
+cd sotuagomah-git
 ```
  
 
@@ -57,7 +57,7 @@ cd data-detective
 ## Usage
  
 ```bash
-python data_detective.py
+python data-detective.py
 ```
  
 The program runs automatically through all four steps. At the end, it drops into an interactive search prompt:
@@ -72,7 +72,7 @@ Type any keyword to filter tweets. Type `quit` to exit.
  
 ## Feed Analyzer Script
  
-`feed_analyzer.sh` is a companion Bash script that prints the **top 5 most active users** in the dataset along with how many tweets each one posted.
+`feed-analyzer.sh` is a companion Bash script that prints the **top 5 most active users** in the dataset along with how many tweets each one posted.
  
 ### Prerequisites
  
@@ -106,8 +106,8 @@ The left column is the tweet count, the right column is the username.
 ```
 data-detective/
 │
-├── data_detective.py       # Main Python script
-├── feed_analyzer.sh        # Bash script — top 5 most active users
+├── data-detective.py       # Main Python script
+├── feed-analyzer.sh        # Bash script — top 5 most active users
 ├── twitter_dataset.csv     # Your dataset (not included)
 └── README.md               # This file
 ```
