@@ -118,17 +118,17 @@ data-detective/
  
 The program runs in four sequential steps ("Quests"):
  
-### Quest 1 — The Data Auditor
+### Quest 1 — Handle missing fields
 Cleans the raw dataset by removing tweets with no text and filling in any missing `Likes` or `Retweets` values with `0`. Prints a report showing how many rows were removed or fixed.
  
-### Quest 2 — The Viral Post
+### Quest 2 — Loop through the list to find the tweet with the highest 'Likes'
 Finds the tweet with the highest like count using a manual linear scan — iterates through every tweet and tracks the current best, without using `max()`.
  
-### Quest 3 — The Algorithm Builder
+### Quest 3 —  Implement Bubble Sort or Selection Sort
 Sorts all tweets by likes using a hand-written **Bubble Sort** algorithm. Returns the top 10 results as a ranked leaderboard.
  **How the sort works:** It repeatedly steps through the list, compares each pair of adjacent tweets, and swaps them if the one with fewer likes comes first — pushing the most liked tweets to the top with each pass.
  
-### Quest 4 — The Content Filter
+### Quest 4 — Search for a keyword and extract matching tweets into a new list
 Runs an interactive search loop. Accepts a keyword from the user and returns all tweets whose text contains that word (case-insensitive). Repeats until the user types `quit`.
  
 ---
