@@ -48,7 +48,7 @@ The project is intentionally built without any built-in sorting or comparison fu
 ```bash
 # Clone or download the project
 git clone https://github.com/sotuagomah-git/lab2_sotuagomah-git
-cd sotuagomah-git
+cd lab2_sotuagomah-git
 ```
  
 
